@@ -21,3 +21,8 @@
     - Enter Passwords and Bingo!
     
     
+
+## SetUp Django
+
+1. Install Python3
+2. Run "pip install django"
