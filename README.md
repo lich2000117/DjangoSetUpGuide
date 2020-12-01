@@ -27,4 +27,6 @@
 1. Install Python3
 2. Run "pip install django"
 3. Run "pip install pymysql"
-4. 
+
+
+#### Remeber to Set local computer's IP static to establish local network server
