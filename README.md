@@ -26,3 +26,5 @@
 
 1. Install Python3
 2. Run "pip install django"
+3. Run "pip install pymysql"
+4. 
