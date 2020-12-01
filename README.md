@@ -1,6 +1,6 @@
 # DjangoSetUpGuide
 
-## SetUp MySQL Database
+## SetUp MySQL
 
 1. Download (https://dev.mysql.com/downloads/):
     - Community Server
