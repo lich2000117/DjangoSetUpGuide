@@ -3,8 +3,8 @@
 ## SetUp MySQL
 
 1. Download (https://dev.mysql.com/downloads/):
-    - Community Server
-    - MySQL Workbench
+    - Community Server  (Unzip to somewhere)
+    - MySQL Workbench    (exe file, install)
     
 2. Setup MySQL Server:
     ### Install:
@@ -30,6 +30,11 @@
 1. Install Python3
 2. Run "pip install django"
 3. Run "pip install pymysql"
+
+#### install pip:
+1. download tar file  https://pip.pypa.io/
+2. CD to its directory
+3. Run "python setup.py install"
 
 ## Setup Django
 1. CD to Django file's directory "cd /d E:\Django\laitai"
