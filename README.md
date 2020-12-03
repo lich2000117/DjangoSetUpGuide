@@ -13,14 +13,14 @@
     ### Change Default Root user password:
     - Create a txt file called "mysql-init.txt" in C:\\
         including this line:
-      " ALTER USER 'root'@'localhost' IDENTIFIED BY 'yourpassword'; "
+      " ALTER USER 'root'@'localhost' IDENTIFIED BY 'yourpassword'; "   (We set 123456  for connection purpose)
     - Run "mysqld --init-file=C:\\mysql-init.txt"
     
     ### Start Server:
     - Run "net start mysql"
     - Run "mysql -u root -p"   
     - Enter Passwords and Bingo!
-    - use Workbench
+    - use Workbench, Set up connection and Name it "database1".          (for connection purpose)
     
     
 
