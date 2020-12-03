@@ -32,7 +32,7 @@
 
 #### Remeber to Set local computer's IP static to establish local network server
 =======
-#### Useful Commands:
+# Useful Commands:
 
 Django
 
@@ -95,7 +95,7 @@ Steps of Making new Changes:
 4.  Enable Python Shell
  python3 -m django shell 
 
- 1. # Import the model classes we just wrote.
+ 1. Import the model classes we just wrote.
   from polls.models import Choice, Question  
     2. Get All “Questions”                                                    Question.objects.all()
     3. Import new Questions
