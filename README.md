@@ -25,13 +25,16 @@
     
     
 
-## SetUp Django
+## Install Django
 
 1. Install Python3
 2. Run "pip install django"
 3. Run "pip install pymysql"
 
-<<<<<<< Updated upstream
+## Setup Django
+1. CD to Django file's directory "cd /d E:\Django\laitai"
+2. export DJANGO_SETTINGS_MODULE=laitai.settings
+3. python -m django runserver
 
 #### Remeber to Set local computer's IP static to establish local network server
 =======
