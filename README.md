@@ -108,8 +108,17 @@ Steps of Making new Changes:
         2. Question.objects.filter(id=1)
         3. Question.objects.filter(question_text__startswith='What')
 
-5. 创建Admin/Superuser
+5. 
+- 创建Admin/Superuser:
  python3 -m django createsuperuser
+- 更改Django用户密码:
+--cd directory
+--python manage.py shell
+--from django.contrib.auth.models import User  
+--user =User.objects.get(username='admin')  
+--user.set_password('new_password')  
+--user.save()  
+ 
 
 6. Find Django Path
     1. python3 -c "import django; print(django.__path__)"
@@ -130,6 +139,3 @@ Steps of Making new Changes:
  python3 -m django inspectdb
  python3 -m django inspectdb > models.py
 
-
-
->>>>>>> Stashed changes
