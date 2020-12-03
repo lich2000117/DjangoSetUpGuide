@@ -17,7 +17,7 @@
     - Run "mysqld --init-file=C:\\mysql-init.txt"
     
     ### Start Server:
-    - Run "net start mysqld"
+    - Run "net start mysql"
     - Run "mysql -u root -p"   
     - Enter Passwords and Bingo!
     - use Workbench
