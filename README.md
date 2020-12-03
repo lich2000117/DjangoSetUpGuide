@@ -20,7 +20,7 @@
     - Run "net start mysql"
     - Run "mysql -u root -p"   
     - Enter Passwords and Bingo!
-    - use Workbench, Set up connection and Name it "database1".          (for connection purpose)
+    - use Workbench, Set up connection and Name it "laitaidb".          (for connection purpose, Since our database's schema called 'laitaidb')
     
     
 
