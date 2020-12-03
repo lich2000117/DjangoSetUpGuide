@@ -10,6 +10,7 @@
     ### Install:
     - CD directory of mysql Server location (" cd \d E:\mysql-8.0.22-winx64\bin ")
     - Run "mysqld --initialize"
+    ### Change Default Root user password:
     - Create a txt file called "mysql-init.txt" in C:\\
         including this line:
       " ALTER USER 'root'@'localhost' IDENTIFIED BY 'yourpassword'; "
@@ -17,8 +18,9 @@
     
     ### Start Server:
     - Run "net start mysqld"
-    - Run "mysql -u root -p"   (Or using Workbench)
+    - Run "mysql -u root -p"   
     - Enter Passwords and Bingo!
+    - use Workbench
     
     
 
