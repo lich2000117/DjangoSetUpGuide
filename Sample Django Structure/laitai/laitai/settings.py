@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'laitai.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database1',
+        'NAME': 'laitaidb',
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': 'localhost',
