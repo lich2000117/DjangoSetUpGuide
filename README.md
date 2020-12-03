@@ -1,5 +1,5 @@
 # DjangoSetUpGuide
-
+### Remember to use Administrator mode in CMD
 ## SetUp MySQL
 
 1. Download (https://dev.mysql.com/downloads/):
