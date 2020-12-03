@@ -33,7 +33,8 @@
 
 ## Setup Django
 1. CD to Django file's directory "cd /d E:\Django\laitai"
-2. export DJANGO_SETTINGS_MODULE=laitai.settings
+2. mac:  export DJANGO_SETTINGS_MODULE=laitai.settings
+2. windows:  set DJANGO_SETTINGS_MODULE=laitai.settings
 3. python -m django runserver
 
 #### Remeber to Set local computer's IP static to establish local network server
