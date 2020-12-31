@@ -8,7 +8,7 @@
     
 2. Setup MySQL Server:
     ### Install:
-    - CD directory of mysql Server location (" cd \d E:\mysql-8.0.22-winx64\bin ")
+    - CD directory of mysql Server location (" cd /d E:\mysql-8.0.22-winx64\bin ")
     - Run "mysqld --install"
     - Run "mysqld --initialize"
     ### Change Default Root user password:
