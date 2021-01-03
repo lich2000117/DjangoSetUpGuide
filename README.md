@@ -67,7 +67,7 @@ urlpatterns = [
 def runExample(request):
     context          = {}
     context['hello'] = 'Hello World!'
-    return render(request, 'example.html', context)
+    return render(request, 'example.html', {'NameinHTML': context})    ###here, {'NameinHTML': context}, NameinHTML stands for variable name in HTML, it refers to context variable in this view function
 ``
 Above Function(runExample()) and variables(context['hello']) can be called in templates.
 
