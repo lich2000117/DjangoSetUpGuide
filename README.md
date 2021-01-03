@@ -50,8 +50,8 @@
 ### =
 ### Three Steps
 1. 'url' register urls
-2. 'views' gather data
-3. 'template' displays HTML using the data from 'view'
+2. 'templates' define how the web page looks
+3. 'views' displays webpage, using those variables in the format given by "templates"
 #### URLS.py: 1. laitai/laitai/urls.py:
 - Register URL for user to access, for example: xxx.xxx.com/page1 )
 ``
@@ -60,9 +60,14 @@ urlpatterns = [
 ]
 ``
 
-#### VIEWS.py: 2. laitai/AppName/views.py:
+#### HTML: 2. laitai/templates/example.html:
+- HTML webPage Templates, define how it looks
+
+
+#### VIEWS.py: 3. laitai/AppName/views.py:
 - Get Data from Models, Calculate Values, and
-- Give those values/function to templates
+- Pass those values/function to templates, and
+- Display to Users
 ``
 def runExample(request):
     context          = {}
@@ -71,8 +76,6 @@ def runExample(request):
 ``
 Above Function(runExample()) and variables(context['hello']) can be called in templates.
 
-#### HTML: 3. laitai/templates/example.html:
-- HTML webPage Templates
 
 
 
