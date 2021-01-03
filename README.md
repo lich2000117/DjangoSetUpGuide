@@ -49,22 +49,30 @@
 ## Create HTML Page in Django?
 ### =
 ### Three Steps
+1. 'url' register urls
+2. 'views' gather data
+3. 'template' displays HTML using the data from 'view'
 #### URLS.py: 1. laitai/laitai/urls.py:
 - Register URL for user to access, for example: xxx.xxx.com/page1 )
-
+``
 urlpatterns = [
-    path('page1/', views.runExample),
+    path('page1/', views.runExample),  ## views.runExample is calling function "runExample", each time visit 127.1.100:8000/page1, call function runExample
 ]
+``
+
 #### VIEWS.py: 2. laitai/AppName/views.py:
+- Get Data from Models, Calculate Values, and
+- Give those values/function to templates
+``
 def runExample(request):
     context          = {}
     context['hello'] = 'Hello World!'
     return render(request, 'example.html', context)
+``
+Above Function(runExample()) and variables(context['hello']) can be called in templates.
 
-
-
-
-
+#### HTML: 3. laitai/templates/example.html:
+- HTML webPage Templates
 
 
 
