@@ -43,6 +43,31 @@
 3. python -m django runserver
 
 #### Remeber to Set local computer's IP static to establish local network server
+
+
+
+## Create HTML Page in Django?
+### =
+### Three Steps
+#### URLS.py: 1. laitai/laitai/urls.py:
+- Register URL for user to access, for example: xxx.xxx.com/page1 )
+
+urlpatterns = [
+    path('page1/', views.runExample),
+]
+#### VIEWS.py: 2. laitai/AppName/views.py:
+def runExample(request):
+    context          = {}
+    context['hello'] = 'Hello World!'
+    return render(request, 'example.html', context)
+
+
+
+
+
+
+
+
 =======
 # Useful Commands:
 
