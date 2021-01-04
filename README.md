@@ -76,10 +76,17 @@ def runExample(request):
 ``
 Above Function(runExample()) and variables(context['hello']) can be called in templates.
 
+### Using Custom Bootstrap WebPage:
+- https://blog.csdn.net/u013251692/article/details/78822643
+- use {% block %}    {% endblock %}  to create inheritance reusable templates.
 
 
+========
+========
+========
+========
 
-=======
+
 # Useful Commands:
 
 Django
